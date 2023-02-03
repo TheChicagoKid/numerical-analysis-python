@@ -19,3 +19,8 @@ def solve_upper(A, b):
         x[i] /= A[i][i]
 
     return x
+
+A = [[1, -5, 1], [0, 25, -6], [0, 0, 22]]
+b = [7, -31, -2]
+
+print(solve_upper(A, b))
