@@ -20,6 +20,7 @@ def solve_lower(A, b):
 
     return x
 
+
 A = [[1, 0, 0], [5, 1, 0], [10, 2, 1]]
 b = [7, 4, 6]
 print(solve_lower(A, b))
